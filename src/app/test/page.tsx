@@ -8,11 +8,11 @@
 // import { BoxGeometry, MeshBasicMaterial, PerspectiveCamera, Scene } from 'three'
 
 const Test = () => {
-  const a = {};
+  // const a = {};
   // const b = {}
   return (
     <div>
-      Tree{a?.a}
+      Tree 
     </div>
   )
 }
