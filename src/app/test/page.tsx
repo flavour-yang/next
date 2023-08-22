@@ -1,20 +1,12 @@
-/*
- * @Author: Y
- * @Date: 2022-09-28
- * @Description:
- */
+'use client'; // 如果是在 Pages Router 中使用，则不需要加这行
 
-// import { useRef } from 'react'
-// import { BoxGeometry, MeshBasicMaterial, PerspectiveCamera, Scene } from 'three'
+import React from 'react';
+import { Button } from 'antd';
 
-const Test = () => {
-  // const a = {};
-  // const b = {}
-  return (
-    <div>
-      Tree 
-    </div>
-  )
-}
+const Home = () => (
+  <div className="App">
+    <Button type="primary">Button</Button>
+  </div>
+);
 
-export default Test
+export default Home;
